@@ -74,5 +74,11 @@ $HOME/opt/cross/bin/$TARGET-gcc --version
 
 ### Add to PATH
 ```bash
-export PATH="$HOME/opt/cross/bin:$PATH"
+echo 'export PATH="$HOME/opt/cross/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+### Usage
+```bash
+i686-elf-gcc --version
 ```
